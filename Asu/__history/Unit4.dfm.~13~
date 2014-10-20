@@ -1,0 +1,47 @@
+object DataModule4: TDataModule4
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 441
+  Width = 796
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'CharacterSet=cp1251'
+      'Server='
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 28
+    Top = 9
+  end
+  object FDQuery15: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      
+        'SELECT studs.id, studs.fam,studs.imya,studs.otch,groups.name fro' +
+        'm studs,groups WHERE groups.id=studs.gp_id')
+    Left = 104
+    Top = 8
+  end
+  object spstudsDataSource: TDataSource
+    DataSet = FDQuery15
+    Left = 192
+    Top = 8
+  end
+  object sp_addDataSource: TDataSource
+    DataSet = specFDTable
+    Left = 184
+    Top = 64
+  end
+  object specFDTable: TFDTable
+    IndexFieldNames = 'id'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'asu.spec'
+    TableName = 'asu.spec'
+    Left = 96
+    Top = 64
+  end
+  object del_stbutton: TFDQuery
+    Connection = FDConnection1
+    Left = 104
+    Top = 128
+  end
+end

@@ -1,0 +1,57 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DBXMySQL, Data.FMTBcd,
+  Datasnap.DBClient, Data.DB, Data.SqlExpr, Vcl.Grids, Vcl.DBGrids,
+  Vcl.ExtCtrls, Datasnap.Provider, Vcl.Buttons, Vcl.DBCtrls, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf,
+  FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys,
+  FireDAC.Phys.MySQL, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, FireDAC.Comp.DataSet, FireDAC.Comp.Client, FireDAC.VCLUI.Wait,
+  FireDAC.Comp.UI, FireDAC.Phys.IBBase, Unit4;
+
+type
+  Tspstuds = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    DBGrid1: TDBGrid;
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  spstuds: Tspstuds;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3;
+
+
+
+
+procedure Tspstuds.SpeedButton1Click(Sender: TObject);
+begin
+addstuds.show;
+end;
+
+procedure Tspstuds.SpeedButton3Click(Sender: TObject);
+begin
+DataModule4.del_stbutton.Close;
+DataModule4.del_stbutton.SQL.Text:= 'DELETE from 'studs' WHERE id=++';
+DBGrid1.Filds[0]
+end;
+
+end.

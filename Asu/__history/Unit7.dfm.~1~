@@ -1,0 +1,43 @@
+object newlkst: Tnewlkst
+  Left = 0
+  Top = 0
+  Caption = #1057#1086#1079#1076#1072#1085#1080#1077' '#1083#1080#1095#1085#1086#1081' '#1082#1072#1088#1090#1099' '#1089#1090#1091#1076#1077#1085#1090#1072
+  ClientHeight = 300
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 19
+  object Label1: TLabel
+    Left = 24
+    Top = 48
+    Width = 57
+    Height = 19
+    Caption = #1040#1076#1088#1077#1089#1089':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 88
+    Width = 71
+    Height = 19
+    Caption = #1058#1077#1083#1077#1092#1086#1085':'
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 128
+    Width = 177
+    Height = 19
+    Caption = #1057#1077#1088#1080#1103', '#1085#1086#1084#1077#1088' '#1087#1072#1089#1087#1086#1088#1090#1072':'
+  end
+end

@@ -1,0 +1,20 @@
+program asu;
+
+uses
+  Vcl.Forms,
+  Unit2 in 'Unit2.pas' {main},
+  unit1 in 'unit1.pas' {spstuds},
+  Unit3 in 'Unit3.pas' {addstuds},
+  Unit4 in 'Unit4.pas' {DataModule4: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tmain, main);
+  Application.CreateForm(Tspstuds, spstuds);
+  Application.CreateForm(Taddstuds, addstuds);
+  Application.CreateForm(TDataModule4, DataModule4);
+  Application.Run;
+end.

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.811,=G:\девелоп\delphi\Asu\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.586,K:\доки2\девелоп\delphi\Asu\studs.dfm=K:\доки2\девелоп\delphi\Asu\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.672,=K:\доки2\девелоп\delphi\Asu\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.123,=K:\доки2\девелоп\delphi\Asu\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.951,=K:\доки2\девелоп\delphi\Asu\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.905,=K:\доки2\девелоп\delphi\Asu\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.994,K:\доки2\девелоп\delphi\Asu\unit1.pas=K:\доки2\девелоп\delphi\Asu\studs.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.904,=K:\доки2\девелоп\delphi\Asu\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.843,=K:\доки2\девелоп\delphi\Asu\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.586,K:\доки2\девелоп\delphi\Asu\studs.pas=K:\доки2\девелоп\delphi\Asu\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.361,G:\девелоп\delphi\Asu\Unit2.dfm=C:\Users\dark\Documents\RAD Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.617,=C:\Users\dark\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.832,=K:\доки2\девелоп\delphi\Asu\DUALLIST.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.395,G:\девелоп\delphi\Asu\asu.dproj=C:\Users\dark\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.361,G:\девелоп\delphi\Asu\Unit2.pas=C:\Users\dark\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.994,K:\доки2\девелоп\delphi\Asu\unit1.dfm=K:\доки2\девелоп\delphi\Asu\studs.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,=G:\девелоп\delphi\Asu\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,=G:\девелоп\delphi\Asu\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,=G:\девелоп\delphi\Asu\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.654,=G:\девелоп\delphi\Asu\Unit4.pas</Transaction>
+  </Transactions>
+</BorlandProject>
