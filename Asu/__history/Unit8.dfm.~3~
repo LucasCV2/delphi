@@ -20,20 +20,6 @@ object newlkrod: Tnewlkrod
     Height = 13
     Caption = 'Label1'
   end
-  object Label2: TLabel
-    Left = 256
-    Top = 67
-    Width = 31
-    Height = 13
-    Caption = 'Label2'
-  end
-  object Label3: TLabel
-    Left = 256
-    Top = 112
-    Width = 31
-    Height = 13
-    Caption = 'Label3'
-  end
   object Edit1: TEdit
     Left = 320
     Top = 21
